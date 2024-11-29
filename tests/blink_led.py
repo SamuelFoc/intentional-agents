@@ -11,6 +11,9 @@ GPIO.setup(LED_PIN, GPIO.OUT)
 
 while True:
     GPIO.output(LED_PIN, 1)
+    print("ON")
     time.sleep(1)
     GPIO.output(LED_PIN, 0)
+    print("OFF")
     time.sleep(1)
+    
